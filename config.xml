@@ -79,13 +79,8 @@
     <icon src="/res/android/icon/xhdpi.png" density="xhdpi"/>
     <icon src="/res/android/icon/xxhdpi.png" density="xxhdpi"/>
     <icon src="/res/android/icon/xxxhdpi.png" density="xxxhdpi"/>
-    <splash src="/res/android/screen/splash-port-ldpi.9.png" density="port-ldpi"/>
-    <splash src="/res/android/screen/splash-port-mdpi.9.png" density="port-mdpi"/>
-    <splash src="/res/android/screen/splash-port-hdpi.9.png" density="port-hdpi"/>
-    <splash src="/res/android/screen/splash-port-xhdpi.9.png" density="port-xhdpi"/>
-    <splash src="/res/android/screen/splash-port-xxhdpi.9.png" density="port-xxhdpi"/>
-    <splash src="/res/android/screen/splash-port-xxxhdpi.9.png" density="port-xxxhdpi"/>
-    <splash src="/res/android/screen/splash-mdpi.png" density="mdpi"/>
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/android/screen/window_splashscreen_icon.png"/>
+    <preference name="AndroidWindowSplashScreenBackground" value="#ffffff"/>
   </platform>
   <preference name="WindowsStorePublisherName" value="My Name"/>
   <preference name="WindowsStoreIdentityName" value="912c33eb-b743-c13e-5ac0-5bbc913b8312"/>
