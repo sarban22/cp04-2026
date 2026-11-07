@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+                            <!DOCTYPE HTML>
 <html>
 <head>
   <meta charset="utf-8">
@@ -164,6 +164,14 @@
         $('#btnA').prop('disabled', false);
         $('#btnB').prop('disabled', false);
         $('#btnC').prop('disabled', false);
+        
+        //preset btnクリック処理
+        $('.preset').click(function(){
+        if (active) return;                   
+        $('#minute').val($(this).data('min'));
+        $('#second').val(0);
+        btnCClick();
+        });
         
     }
 
