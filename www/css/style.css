@@ -57,13 +57,14 @@
     }
     
     #btnA {
-        background-color: yellow;
+        background-color: rgb(19, 233, 37);
         color: green;
         font-size: 20px;
         position:absolute; top:380px; left:2%; width:43%; height:60px; 
     }
     
     #btnB {
+        background-color: rgb(248, 213, 15);
         font-size: 20px;
         position:absolute; top:380px; left:45%; width:25%; height:60px; 
     }
@@ -82,5 +83,8 @@
         font-size: 30px;
         position:absolute; top:450px; left:190px; width:80px; height:40px;   
     }
+    button:disabled {
+    opacity: 0.6;
+}
     
     input[type=number] {text-align: right;}
