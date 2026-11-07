@@ -228,7 +228,9 @@
             $("#remain").html("残り時間： " + rest);
             analog(rest);
 
-        if(rest <= 0) {
+            var bg = rest <= 10 ? "red" : (rest <= 30 ? "gold" : "skyblue");
+            $("body").css("background-color", bg);
+            if(rest <= 0) {
             active = false;
             alarm();
         }   
