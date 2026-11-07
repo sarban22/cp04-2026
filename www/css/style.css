@@ -78,6 +78,17 @@
         font-size: 30px;
         position:absolute; top:450px; left:190px; width:80px; height:40px;   
     }
+    .preset {
+        background-color: ;
+        color: blue;
+        font-size:20px;
+        position: absolute;top:510px;width: 30%; height: 50px;
+    }
+    #p1 { left: 2%; }
+    #p3 { left: 35%; }
+    #p5 { left: 68%; }
+
+    }
     button:disabled {
     opacity: 0.6;
 }
